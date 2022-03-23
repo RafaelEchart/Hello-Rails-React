@@ -26,13 +26,13 @@ development:
   <<: *default
   username: postgres
   password: 123
-  database: Rails_BudgetApp_development
+  database: Recipe_app_development
 
 test:
   <<: *default
   username: postgres
   password: 123
-  database: Rails_BudgetApp_development
+  database: Recipe_app_development
 
 
 production:
